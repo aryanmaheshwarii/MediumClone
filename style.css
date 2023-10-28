@@ -1,0 +1,505 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* NAV BAR STARTS... */
+
+.navbar {
+    background-color: #FFC017;
+    height: 80px;
+    margin: 0;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+}
+
+img {
+    height: 50px;
+    margin: 15px 0px;
+    margin-left: 105px;
+}
+
+.head {
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+.anchor {
+    display: inline-block;
+    margin-left: 490px;
+    position: relative;
+    bottom: 40px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    padding: 5px 11px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* NAV BAR ENDS... */
+
+
+/* CURIOUS STARTS */
+
+.curious {
+    background-color: #FFC017;
+    height: 530px;
+    border-bottom: 1px solid black;
+    color: black;
+    padding-right: 50px;
+}
+
+/* LEFT PART */
+
+.left {
+    margin-top: 150px;
+    margin-left: 106px;
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 40%;
+    float: right;
+}
+
+.curious_head {
+    font-size: 97px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 106px;
+    letter-spacing: -0.05em;
+}
+
+.para {
+    font-size: 24px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reading {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 25px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 24px;
+    font-weight: 450;
+    line-height: normal;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    padding: 5px 59px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* LEFT PART END */
+
+/* RIGHT PART */
+
+.right {
+    margin-top: 100px;
+}
+
+.image {
+    height: 383px;
+    margin-right: 50px;
+}
+
+/* RIGHT PART ENDS */
+
+/* CURIOUS ENDS... */
+
+
+/* TRENDING STARTS ... */
+
+.trending {
+    height: 350px;
+    border-bottom: 1px solid lightgray;
+}
+
+.GridLayout {
+    height: 300px;
+    margin: 25px 30px;
+    display: grid;
+    padding: 10px 40px;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: 100px 325px 100px 325px 100px 325px;
+}
+
+.parent {
+    display: grid;
+}
+
+.row-1 {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.trend {
+    height: 30px;
+}
+
+.col-1 {
+    grid-row: 1/2;
+    grid-column: 2/7;
+    font-size: 17px;
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+.cont1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    height: 25px;
+    margin-left: 5px;
+    padding-left: 60px;
+}
+
+/* .......................................................................................... */
+
+.first {
+    font-size: 35px;
+    color: lightgray;
+    padding-left: 60px;
+    padding-top: 8px;
+    font-weight: 600;
+    grid-row: 2/5;
+    grid-column: 1/2;
+}
+
+.content1 {
+    grid-row: 2/5;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 30px 1fr;
+}
+
+/* .......................................................................................... */
+
+.cont {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.mg {
+    margin-top: 20px;
+    margin-left: 5px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.DusriLine {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    padding-bottom: 5px;
+}
+
+.TeesriLine {
+    color: grey;
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+/* .......................................................................................... */
+
+/* .......................................................................................... */
+
+/* .......................................................................................... */
+.second {
+    font-size: 35px;
+    color: lightgray;
+    padding-left: 60px;
+    padding-top: 8px;
+    font-weight: 600;
+    grid-row: 2/5;
+    grid-column: 3/4;
+}
+
+.content2 {
+    grid-row: 2/5;
+    grid-column: 4/5;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 30px 1fr;
+}
+
+/* .......................................................................................... */
+
+.third {
+    font-size: 35px;
+    color: lightgray;
+    padding-left: 60px;
+    padding-top: 8px;
+    font-weight: 600;
+    grid-row: 2/5;
+    grid-column: 5/6;
+}
+
+.content3 {
+    grid-row: 2/5;
+    grid-column: 6/7;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 30px 1fr;
+}
+
+.fourth {
+    font-size: 35px;
+    color: lightgray;
+    padding-left: 60px;
+    padding-top: 8px;
+    font-weight: 600;
+    grid-row: 5/8;
+    grid-column: 1/2;
+}
+
+.content4 {
+    grid-row: 5/8;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 30px 1fr;
+}
+
+.fifth {
+    font-size: 35px;
+    color: lightgray;
+    padding-left: 60px;
+    padding-top: 8px;
+    font-weight: 600;
+    grid-row: 5/8;
+    grid-column: 3/4;
+}
+
+.content5 {
+    grid-row: 5/8;
+    grid-column: 4/5;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 30px 1fr;
+}
+
+.sixth {
+    font-size: 35px;
+    color: lightgray;
+    padding-left: 60px;
+    padding-top: 8px;
+    font-weight: 600;
+    grid-row: 5/8;
+    grid-column: 5/6;
+}
+
+.content6 {
+    grid-row: 5/8;
+    grid-column: 6/7;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 30px 1fr;
+}
+
+/* .......................................................................... */
+
+/* TRENDING ENDS */
+
+/* ............................................................................. */
+
+/* SMITH STARTS */
+
+.box {
+    height: 1100px;
+    border-bottom: 1px solid lightgray;
+}
+
+.Part-Left {
+    float: left;
+    width: 55%;
+    height: 1000px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.Part-Right {
+    float: right;
+    width: 31%;
+    height: 400px;
+    margin-top: 80px;
+    margin-right: 54px;
+    position: sticky;
+    top: 80px;
+}
+
+.First-Div-Left {
+    height: 250px;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 50px 450px 1fr;
+}
+
+.Choti-Photo {
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 25px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.photos-right {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.Second-Line {
+    grid-row: 2/3;
+    grid-column: 1/3;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Third-Line {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    color: rgb(172, 169, 169);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Fourth-Line {
+    grid-row: 4/5;
+    grid-column: 1/3;
+    color: rgb(172, 169, 169);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Right-Wali-Pic {
+    grid-row: 1/5;
+    grid-column: 3/4;
+}
+
+.Kedi-Photo {
+    height: 206px;
+    width: 259px;
+    margin-left: 7px;
+}
+
+/* LEFT PART ENDS */
+
+/* ............................................................................. */
+/* ............................................................................. */
+
+/* RIGHT PART STARTS */
+.h3-tag {
+    margin: 30px 10px 10px 10px;
+}
+
+.button-hi-button {
+    padding-left: 10px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skills {
+    appearance: none;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #1d1a1a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    padding: 5px 11px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.click {
+    color: green;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.line {
+    color: lightgray;
+}
+
+.contact-wala {
+    padding-left: 10px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: grey;
+    font-weight: 600;
+}
+
+/* MEDIA QUERY LAGATE H ... */
+
+@media screen and (max-width:500px) {
+    .item {
+        display: none;
+    }
+}
